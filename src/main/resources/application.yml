@@ -9,8 +9,9 @@ spring:
     defer-datasource-initialization: true
     show-sql: true
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
       generate-ddl: true
+    database-platform: org.hibernate.dialect.H2Dialect
 
   h2:
     console:

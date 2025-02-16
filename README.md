@@ -61,5 +61,5 @@
 **메일 내 첨부된 파일(권성지_일정관리_api 명세.html)**
 
 ## 5. 테스트케이스
-**[테스트케이스 Link]https://docs.google.com/spreadsheets/d/1f7tDXXzBYK3tO5lGjpkfW9lyALR461s2HhZWScGy688/edit?usp=sharing**
+**[테스트케이스 Link](https://docs.google.com/spreadsheets/d/1f7tDXXzBYK3tO5lGjpkfW9lyALR461s2HhZWScGy688/edit?usp=sharing)**
 

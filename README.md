@@ -28,8 +28,8 @@
 ## 2. 소스 빌드 및 실행 방법 메뉴얼
 **1. Gradle 로딩 및 프로젝트 빌드**
 - build.gradle에서 Gradle을 로딩합니다.
-- ./gradlew build 명령어 실행
 - ./gradlew clean 명령어 실행
+- ./gradlew build 명령어 실행
 
 **2. 데이터베이스 설정**
 - application.yml 파일에서 환경에 맞는 DB 접속 정보를 설정합니다.

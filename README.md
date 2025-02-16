@@ -63,7 +63,7 @@
 - FCM 미사용 이유: FCM은 테스트 환경 구축 및 활용이 복잡하여 개발 및 테스트 단계에서는 테스트가 간단한 WebSocket 방식을 선택함 실제 배포 시에는 FCM 활용 가능성 고려
 
 ## 4. Api 명세
-**메일 내 첨부된 파일(권성지_일정관리_api 명세.html)**
+**메일 내 첨부된 파일(권성지_일정관리_api_명세.html)**
 
 ## 5. 테스트케이스
 **[테스트케이스 Link](https://docs.google.com/spreadsheets/d/1f7tDXXzBYK3tO5lGjpkfW9lyALR461s2HhZWScGy688/edit?usp=sharing)**

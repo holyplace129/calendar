@@ -23,8 +23,6 @@ public class QWish extends EntityPathBase<Wish> {
 
     public final StringPath content = createString("content");
 
-    public final DatePath<java.time.LocalDate> createAt = createDate("createAt", java.time.LocalDate.class);
-
     //inherited
     public final DateTimePath<java.time.LocalDateTime> createDate = _super.createDate;
 
@@ -42,8 +40,6 @@ public class QWish extends EntityPathBase<Wish> {
 
     //inherited
     public final DateTimePath<java.time.LocalDateTime> lastModifiedDate = _super.lastModifiedDate;
-
-    public final DatePath<java.time.LocalDate> modifyAt = createDate("modifyAt", java.time.LocalDate.class);
 
     public final NumberPath<Long> price = createNumber("price", Long.class);
 

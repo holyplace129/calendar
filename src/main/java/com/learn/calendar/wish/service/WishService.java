@@ -50,7 +50,6 @@ public class WishService {
                 .frequency(wishRequest.getFrequency())
                 .startAt(wishRequest.getStartAt())
                 .expirationAt(expirationDate)
-                .createAt(LocalDate.now())
                 .build();
 
         Wish saveWish = wishRepository.save(wish);

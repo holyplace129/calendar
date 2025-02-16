@@ -43,7 +43,7 @@ public class NotificationScheduler {
             // deviceToken을 바로 가져옴
             String deviceToken = scheduleResponse.getDeviceToken();
             WebSocketSession session = customWebSocketHandler.getSessionByDeviceToken(deviceToken);
-            log.info("Session for deviceToken {}: {}", deviceToken, session); // 로그 추가
+            log.info("Session for deviceToken {}: {}", deviceToken, session);
 
             // 세션이 존재하고 열린 상태일 경우 메시지 전송
             if (session != null && session.isOpen()) {

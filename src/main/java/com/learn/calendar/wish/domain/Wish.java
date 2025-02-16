@@ -31,11 +31,7 @@ public class Wish extends BaseTimeEntity {
 
     private Long dayDeposit;
 
-    private LocalDate createAt;
-
     private LocalDate startAt;
-
-    private LocalDate modifyAt;
 
     private LocalDate expirationAt;
 
@@ -43,16 +39,14 @@ public class Wish extends BaseTimeEntity {
     private Frequency frequency;
 
     @Builder
-    public Wish(String title, String content, String image, Long price, Long currentAmount, Long dayDeposit, LocalDate createAt, LocalDate startAt, LocalDate modifyAt, LocalDate expirationAt, Frequency frequency) {
+    public Wish(String title, String content, String image, Long price, Long currentAmount, Long dayDeposit, LocalDate startAt, LocalDate expirationAt, Frequency frequency) {
         this.title = title;
         this.content = content;
         this.image = image;
         this.price = price;
         this.currentAmount = currentAmount;
         this.dayDeposit = dayDeposit;
-        this.createAt = createAt;
         this.startAt = startAt;
-        this.modifyAt = modifyAt;
         this.expirationAt = expirationAt;
         this.frequency = frequency;
     }
@@ -70,7 +64,6 @@ public class Wish extends BaseTimeEntity {
         this.dayDeposit = wishUpdateRequest.getDayDeposit() != null ? wishUpdateRequest.getDayDeposit() : this.dayDeposit;
         this.frequency = wishUpdateRequest.getFrequency() != null ? wishUpdateRequest.getFrequency() : this.frequency;
         this.startAt = wishUpdateRequest.getStartAt() != null ? wishUpdateRequest.getStartAt() : this.startAt;
-        this.modifyAt = LocalDate.now();
 
         recalculateExpiration();
     }

@@ -39,6 +39,11 @@
   - use calendardb;
 - 첨부된 SQL 파일 실행(일정관리_가데이터.sql)
 
+**3. 애플리케이션 실행**
+- 실행 후 WebSocket 연결 테스트
+  - ws://localhost:8080/ws?deviceToken={deviceToken}
+  - deviceToken은 일정(schedule) 데이터에 포함되어 있으며, 가데이터의 경우 deviceToken은 'abc123'입니다.
+
 **데이터베이스 ERD**
 ![Image](https://github.com/user-attachments/assets/7cadea18-e266-4d0b-a27a-a217b3448b0f)
 
